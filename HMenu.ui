@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WindowHMenu</class>
+ <widget class="QMainWindow" name="WindowHMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>359</width>
+    <height>183</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">  background-color: rgb(233, 239, 255);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>341</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_5">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_7">
+       <item>
+        <widget class="QPushButton" name="btHYonlendir">
+         <property name="styleSheet">
+          <string notr="true">    background-color: rgb(51, 191, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: rgb(0, 145, 255);
+    font: bold 12px;
+    min-width: 10em;
+    padding: 8px;</string>
+         </property>
+         <property name="text">
+          <string>Yönlendir</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btHBilgilerim">
+         <property name="styleSheet">
+          <string notr="true">    background-color: rgb(51, 191, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: rgb(0, 145, 255);
+    font: bold 12px;
+    min-width: 10em;
+    padding: 8px;</string>
+         </property>
+         <property name="text">
+          <string>Bilgilerim</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

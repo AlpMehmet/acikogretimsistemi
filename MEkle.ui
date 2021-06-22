@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WindowMEkle</class>
+ <widget class="QMainWindow" name="WindowMEkle">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>442</width>
+    <height>447</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">  background-color: rgb(233, 239, 255);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>411</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="btSoruEkle">
+       <property name="styleSheet">
+        <string notr="true">    background-color: rgb(51, 191, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: rgb(0, 145, 255);
+    font: bold 12px;
+    min-width: 10em;
+    padding: 8px;</string>
+       </property>
+       <property name="text">
+        <string>Soru Ekle</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btSTEkle">
+       <property name="styleSheet">
+        <string notr="true">    background-color: rgb(51, 191, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: rgb(0, 145, 255);
+    font: bold 12px;
+    min-width: 10em;
+    padding: 8px;</string>
+       </property>
+       <property name="text">
+        <string>Sınav Tarihi Ekle</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btYonEkle">
+       <property name="styleSheet">
+        <string notr="true">    background-color: rgb(51, 191, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: rgb(0, 145, 255);
+    font: bold 12px;
+    min-width: 10em;
+    padding: 8px;</string>
+       </property>
+       <property name="text">
+        <string>Yönetici Ekle</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btOgrenciEkle">
+       <property name="styleSheet">
+        <string notr="true">    background-color: rgb(51, 191, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: rgb(0, 145, 255);
+    font: bold 12px;
+    min-width: 10em;
+    padding: 8px;</string>
+       </property>
+       <property name="text">
+        <string>Öğrenci Ekle</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btSalonEkle">
+       <property name="styleSheet">
+        <string notr="true">    background-color: rgb(51, 191, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: rgb(0, 145, 255);
+    font: bold 12px;
+    min-width: 10em;
+    padding: 8px;</string>
+       </property>
+       <property name="text">
+        <string>Salon Ekle</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btHocaEkle">
+       <property name="styleSheet">
+        <string notr="true">    background-color: rgb(51, 191, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: rgb(0, 145, 255);
+    font: bold 12px;
+    min-width: 10em;
+    padding: 8px;</string>
+       </property>
+       <property name="text">
+        <string>Hoca Ekle</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>442</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

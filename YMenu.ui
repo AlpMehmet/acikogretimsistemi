@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WindowYonMenu</class>
+ <widget class="QMainWindow" name="WindowYonMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>496</width>
+    <height>427</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">  background-color: rgb(233, 239, 255);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>481</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="btOgrenciYerlestir">
+       <property name="styleSheet">
+        <string notr="true">    background-color: rgb(51, 191, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: rgb(0, 145, 255);
+    font: bold 12px;
+    min-width: 10em;
+    padding: 8px;</string>
+       </property>
+       <property name="text">
+        <string>Öğrencileri Yerleştir</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btHocaYerlestir">
+       <property name="styleSheet">
+        <string notr="true">    background-color: rgb(51, 191, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: rgb(0, 145, 255);
+    font: bold 12px;
+    min-width: 10em;
+    padding: 8px;</string>
+       </property>
+       <property name="text">
+        <string>Hocaları Yerleştir</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btMail3">
+       <property name="styleSheet">
+        <string notr="true">    background-color: rgb(51, 191, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: rgb(0, 145, 255);
+    font: bold 12px;
+    min-width: 10em;
+    padding: 8px;</string>
+       </property>
+       <property name="text">
+        <string>Kabul Veya Red Etme Sürelerini Bitirip Red Edilenler Yerine Oto Yerleştir</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btMail1">
+       <property name="styleSheet">
+        <string notr="true">    background-color: rgb(51, 191, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: rgb(0, 145, 255);
+    font: bold 12px;
+    min-width: 10em;
+    padding: 8px;</string>
+       </property>
+       <property name="text">
+        <string>Hocalara Sisteme Girip Tarih Seçmeleri İçin Mail Yolla</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btMail2">
+       <property name="styleSheet">
+        <string notr="true">    background-color: rgb(51, 191, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: rgb(0, 145, 255);
+    font: bold 12px;
+    min-width: 10em;
+    padding: 8px;</string>
+       </property>
+       <property name="text">
+        <string>Hocalara Sisteme Girip Kabul Veya Red Etmeleri İçin Mail Yolla</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btTS">
+       <property name="styleSheet">
+        <string notr="true">    background-color: rgb(51, 191, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: rgb(0, 145, 255);
+    font: bold 12px;
+    min-width: 10em;
+    padding: 8px;</string>
+       </property>
+       <property name="text">
+        <string>Tarih Seç</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btBaslat">
+       <property name="styleSheet">
+        <string notr="true">    background-color: rgb(51, 191, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: rgb(0, 145, 255);
+    font: bold 12px;
+    min-width: 10em;
+    padding: 8px;</string>
+       </property>
+       <property name="text">
+        <string>Başlat</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

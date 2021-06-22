@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WindowHTarihSec</class>
+ <widget class="QMainWindow" name="WindowHTarihSec">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>361</width>
+    <height>252</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">  background-color: rgb(233, 239, 255);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>321</width>
+      <height>198</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_5">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_7">
+       <item>
+        <widget class="QLabel" name="labelTc_4">
+         <property name="styleSheet">
+          <string notr="true"> 	background-color: rgb(49, 38, 170);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    font: bold 14px;
+    font-color:rgb(160, 246, 255);
+    min-width: 7em;
+    padding: 6px;
+	border-color: rgb(0, 145, 255)</string>
+         </property>
+         <property name="text">
+          <string>Tarih</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="cbSehir_2">
+         <property name="styleSheet">
+          <string notr="true">    background-color: rgb(196, 225, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+	border-color: rgb(0, 145, 255)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelTc_5">
+         <property name="styleSheet">
+          <string notr="true"> 	background-color: rgb(49, 38, 170);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    font: bold 14px;
+    font-color:rgb(160, 246, 255);
+    min-width: 7em;
+    padding: 6px;
+	border-color: rgb(0, 145, 255)</string>
+         </property>
+         <property name="text">
+          <string>Saat</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="cbSehir_3">
+         <property name="styleSheet">
+          <string notr="true">    background-color: rgb(196, 225, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+	border-color: rgb(0, 145, 255)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btOnay">
+         <property name="styleSheet">
+          <string notr="true">    background-color: rgb(51, 191, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: rgb(0, 145, 255);
+    font: bold 12px;
+    min-width: 10em;
+    padding: 8px;</string>
+         </property>
+         <property name="text">
+          <string>Onayla</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

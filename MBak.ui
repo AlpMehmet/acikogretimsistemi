@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WindowMBak</class>
+ <widget class="QMainWindow" name="WindowMBak">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>487</width>
+    <height>260</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">  background-color: rgb(233, 239, 255);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>0</y>
+      <width>431</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="btKBak">
+       <property name="styleSheet">
+        <string notr="true">    background-color: rgb(51, 191, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: rgb(0, 145, 255);
+    font: bold 12px;
+    min-width: 10em;
+    padding: 8px;</string>
+       </property>
+       <property name="text">
+        <string>Kitapçıklara Bak</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btSBak">
+       <property name="styleSheet">
+        <string notr="true">    background-color: rgb(51, 191, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: rgb(0, 145, 255);
+    font: bold 12px;
+    min-width: 10em;
+    padding: 8px;</string>
+       </property>
+       <property name="text">
+        <string>Sorulara Bak</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btBak">
+       <property name="styleSheet">
+        <string notr="true">    background-color: rgb(51, 191, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: rgb(0, 145, 255);
+    font: bold 12px;
+    min-width: 10em;
+    padding: 8px;</string>
+       </property>
+       <property name="text">
+        <string>Yerleştirmelere Bak</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>487</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

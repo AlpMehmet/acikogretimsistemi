@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WindowYSoruEkle</class>
+ <widget class="QMainWindow" name="WindowYSoruEkle">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1263</width>
+    <height>744</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1263</width>
+    <height>744</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1263</width>
+    <height>744</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">  background-color: rgb(233, 239, 255);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1221</width>
+      <height>610</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="btSE_3">
+       <property name="styleSheet">
+        <string notr="true">    background-color: rgb(51, 191, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: rgb(0, 145, 255);
+    font: bold 12px;
+    min-width: 10em;
+    padding: 8px;</string>
+       </property>
+       <property name="text">
+        <string>Soru Ekle</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_22">
+       <item>
+        <widget class="QLabel" name="labelTc_7">
+         <property name="styleSheet">
+          <string notr="true"> 	background-color: rgb(49, 38, 170);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    font: bold 14px;
+    font-color:rgb(160, 246, 255);
+    min-width: 7em;
+    padding: 6px;
+	border-color: rgb(0, 145, 255)</string>
+         </property>
+         <property name="text">
+          <string>Doğru Cevap Hangisi Seçiniz</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="cbD">
+         <property name="styleSheet">
+          <string notr="true">    background-color: rgb(196, 225, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+	border-color: rgb(0, 145, 255)</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_21">
+       <item>
+        <widget class="QLabel" name="labelCep_15">
+         <property name="styleSheet">
+          <string notr="true"> 	background-color: rgb(49, 38, 170);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    font: bold 14px;
+    font-color:rgb(160, 246, 255);
+    min-width: 7em;
+    padding: 6px;
+	border-color: rgb(0, 145, 255)</string>
+         </property>
+         <property name="text">
+          <string>Soru</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit">
+         <property name="styleSheet">
+          <string notr="true">    background-color: rgb(196, 225, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+	border-color: rgb(0, 145, 255)</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_16">
+       <item>
+        <widget class="QLabel" name="labelCep_10">
+         <property name="styleSheet">
+          <string notr="true"> 	background-color: rgb(49, 38, 170);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    font: bold 14px;
+    font-color:rgb(160, 246, 255);
+    min-width: 7em;
+    padding: 6px;
+	border-color: rgb(0, 145, 255)</string>
+         </property>
+         <property name="text">
+          <string>A</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_2">
+         <property name="styleSheet">
+          <string notr="true">    background-color: rgb(196, 225, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+	border-color: rgb(0, 145, 255)</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_20">
+       <item>
+        <widget class="QLabel" name="labelCep_14">
+         <property name="styleSheet">
+          <string notr="true"> 	background-color: rgb(49, 38, 170);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    font: bold 14px;
+    font-color:rgb(160, 246, 255);
+    min-width: 7em;
+    padding: 6px;
+	border-color: rgb(0, 145, 255)</string>
+         </property>
+         <property name="text">
+          <string>B</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_3">
+         <property name="styleSheet">
+          <string notr="true">    background-color: rgb(196, 225, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+	border-color: rgb(0, 145, 255)</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_19">
+       <item>
+        <widget class="QLabel" name="labelCep_13">
+         <property name="styleSheet">
+          <string notr="true"> 	background-color: rgb(49, 38, 170);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    font: bold 14px;
+    font-color:rgb(160, 246, 255);
+    min-width: 7em;
+    padding: 6px;
+	border-color: rgb(0, 145, 255)</string>
+         </property>
+         <property name="text">
+          <string>C</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_4">
+         <property name="styleSheet">
+          <string notr="true">    background-color: rgb(196, 225, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+	border-color: rgb(0, 145, 255)</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_17">
+       <item>
+        <widget class="QLabel" name="labelCep_11">
+         <property name="styleSheet">
+          <string notr="true"> 	background-color: rgb(49, 38, 170);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    font: bold 14px;
+    font-color:rgb(160, 246, 255);
+    min-width: 7em;
+    padding: 6px;
+	border-color: rgb(0, 145, 255)</string>
+         </property>
+         <property name="text">
+          <string>D</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_5">
+         <property name="styleSheet">
+          <string notr="true">    background-color: rgb(196, 225, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+	border-color: rgb(0, 145, 255)</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_14">
+       <item>
+        <widget class="QLabel" name="labelCep_9">
+         <property name="styleSheet">
+          <string notr="true"> 	background-color: rgb(49, 38, 170);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    font: bold 14px;
+    font-color:rgb(160, 246, 255);
+    min-width: 7em;
+    padding: 6px;
+	border-color: rgb(0, 145, 255)</string>
+         </property>
+         <property name="text">
+          <string>E</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_6">
+         <property name="styleSheet">
+          <string notr="true">    background-color: rgb(196, 225, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+	border-color: rgb(0, 145, 255)</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>620</y>
+      <width>1221</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_15">
+     <item>
+      <widget class="QLabel" name="labelTc_6">
+       <property name="styleSheet">
+        <string notr="true"> 	background-color: rgb(49, 38, 170);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    font: bold 14px;
+    font-color:rgb(160, 246, 255);
+    min-width: 7em;
+    padding: 6px;
+	border-color: rgb(0, 145, 255)</string>
+       </property>
+       <property name="text">
+        <string>Tür Seçiniz</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="cbT">
+       <property name="styleSheet">
+        <string notr="true">    background-color: rgb(196, 225, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+	border-color: rgb(0, 145, 255)</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1263</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

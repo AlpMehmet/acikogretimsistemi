@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WindowHLogin</class>
+ <widget class="QMainWindow" name="WindowHLogin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>375</width>
+    <height>421</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>375</width>
+    <height>421</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>375</width>
+    <height>421</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">  background-color: rgb(233, 239, 255);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>321</width>
+      <height>363</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QLabel" name="labelCep">
+         <property name="styleSheet">
+          <string notr="true"> 	background-color: rgb(49, 38, 170);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    font: bold 14px;
+    font-color:rgb(160, 246, 255);
+    min-width: 7em;
+    padding: 6px;
+	border-color: rgb(0, 145, 255)</string>
+         </property>
+         <property name="text">
+          <string>Ad-Soyad Giriniz:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEditAd">
+         <property name="styleSheet">
+          <string notr="true">    background-color: rgb(196, 225, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+	border-color: rgb(0, 145, 255)</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="labelTc">
+         <property name="styleSheet">
+          <string notr="true"> 	background-color: rgb(49, 38, 170);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    font: bold 14px;
+    font-color:rgb(160, 246, 255);
+    min-width: 7em;
+    padding: 6px;
+	border-color: rgb(0, 145, 255)</string>
+         </property>
+         <property name="text">
+          <string>Şifre:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEditSifre">
+         <property name="styleSheet">
+          <string notr="true">    background-color: rgb(196, 225, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+	border-color: rgb(0, 145, 255)</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonGiris">
+       <property name="styleSheet">
+        <string notr="true">    background-color: rgb(51, 191, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: rgb(0, 145, 255);
+    font: bold 12px;
+    min-width: 10em;
+    padding: 8px;</string>
+       </property>
+       <property name="text">
+        <string>Giriş</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>375</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

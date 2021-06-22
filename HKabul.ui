@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WindowHKabul</class>
+ <widget class="QMainWindow" name="WindowHKabul">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>472</width>
+    <height>211</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">  background-color: rgb(233, 239, 255);
+  background-color: rgb(233, 239, 255);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="labelCep_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>19</y>
+      <width>451</width>
+      <height>115</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> 	background-color: rgb(49, 38, 170);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    font: bold 14px;
+    font-color:rgb(160, 246, 255);
+    min-width: 7em;
+    padding: 6px;
+	border-color: rgb(0, 145, 255)</string>
+    </property>
+    <property name="text">
+     <string>Tercih ettiğiniz saat ve tarihteki görevi kabul ediyor musunuz?</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBoxIl_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>451</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    background-color: rgb(196, 225, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 12px;
+    font: bold 14px;
+    min-width: 7em;
+    padding: 6px;
+	border-color: rgb(0, 145, 255)</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Kabul</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Red</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
